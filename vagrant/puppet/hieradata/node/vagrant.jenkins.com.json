@@ -1,0 +1,5 @@
+{
+    "classes" : "jenkins",
+    "jenkins::rpm_repo" : "jenkins.repo",
+    "jenkins::rpm_key" : "jenkins-ci.org.key"
+}

@@ -1,0 +1,8 @@
+---
+:backends:
+  - json
+:json:
+  :datadir: /vagrant/puppet/hieradata
+:hierarchy:
+  - "node/%{::fqdn}"
+  - common
